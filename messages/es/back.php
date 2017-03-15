@@ -17,6 +17,10 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'Authentication type' => 'Tipo de autenticación',
+    'Could not bind to the LDAP server.' => 'No fue posible conectarse al servidor LDAP',
+    'The provided LDAP parameters are syntactically wrong.' => 'Los parámetros de LDAP proporcionados no son sintácticamente correctos.',
+    'Unknown auth type.' => 'Tipo de autenticación desconocido',
     'Active' => 'Activo',
     'Are you sure you want to delete this user?' => '¿Seguro que desea borrar este usuario?',
     'Banned' => 'Bloqueado',
@@ -49,10 +53,9 @@ return [
     'For example: 123.34.56.78, 168.111.192.12' => 'Por ejemplo: 123.34.56.78, 168.111.192.12',
     'Group' => 'Grupo',
     'ID' => 'Id',
-    'Inactive' => 'Inactivo',
     'IP' => 'IP',
+    'Inactive' => 'Inactivo',
     'Language' => 'Idioma',
-    'Login' => 'Iniciar sesión',
     'Name' => 'Nombre',
     'OS' => 'Sistema Operativo',
     'Password' => 'Contraseña',
