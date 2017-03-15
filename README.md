@@ -10,13 +10,13 @@ Perks
 * Visit log
 * Optimised (zero DB queries during usual user workflow)
 * Nice widgets like GhostMenu or GhostHtml::a where elements are visible only if user has access to route where they point
-* LDAP support
 
 Features of this fork
-~~~
+---
 
-* Correct maximum length of an email address
+* Correct maximum length of an e-mail address
 * Improved Spanish translation
+* LDAP support
 
 
 Installation
@@ -44,7 +44,7 @@ Configuration
 
 ```php
 
-'components'=>[
+'components' => [
 	'user' => [
 		// 'identityClass' => 'app\models\User',
 		'enableLdap' => false, // Change it to true to enable LDAP authentication
@@ -52,12 +52,12 @@ Configuration
 
 		// Comment this if you don't want to record user logins
 		'on afterLogin' => function($event) {
-				\webvimark\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
-			}
+			\webvimark\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
+		}
 	],
 ],
 
-'modules'=>[
+'modules' => [
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
 
@@ -72,17 +72,16 @@ Configuration
 		// (?=\S*[\d]): and at least one number
 		// $: anchored to the end of the string
 
-		//'passwordRegexp' => '^\S*(?=\S{8,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])\S*$',
+		// 'passwordRegexp' => '^\S*(?=\S{8,})(?=\S*[a-z])(?=\S*[A-Z])(?=\S*[\d])\S*$',
 
 
 		// Here you can set your handler to change layout for any controller or action
 		// Tip: you can use this event in any module
 		'on beforeAction'=>function(yii\base\ActionEvent $event) {
-				if ( $event->action->uniqueId == 'user-management/auth/login' )
-				{
-					$event->action->controller->layout = 'loginLayout.php';
-				};
-			},
+			if ( $event->action->uniqueId == 'user-management/auth/login' ) {
+				$event->action->controller->layout = 'loginLayout.php';
+			};
+		},
 	],
 ],
 
@@ -121,7 +120,7 @@ To see full list of options check *UserManagementModule* file
 'modules'=>[
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
-	        'controllerNamespace'=>'vendor\webvimark\modules\UserManagement\controllers', // To prevent yii help from crashing
+	    'controllerNamespace'=>'vendor\webvimark\modules\UserManagement\controllers', // To prevent yii help from crashing
 	],
 ],
 
@@ -169,22 +168,22 @@ use webvimark\modules\UserManagement\components\GhostMenu;
 use webvimark\modules\UserManagement\UserManagementModule;
 
 echo GhostMenu::widget([
-	'encodeLabels'=>false,
-	'activateParents'=>true,
+	'encodeLabels' => false,
+	'activateParents' => true,
 	'items' => [
 		[
 			'label' => 'Backend routes',
-			'items'=>UserManagementModule::menuItems()
+			'items' => UserManagementModule::menuItems()
 		],
 		[
 			'label' => 'Frontend routes',
-			'items'=>[
-				['label'=>'Login', 'url'=>['/user-management/auth/login']],
-				['label'=>'Logout', 'url'=>['/user-management/auth/logout']],
-				['label'=>'Registration', 'url'=>['/user-management/auth/registration']],
-				['label'=>'Change own password', 'url'=>['/user-management/auth/change-own-password']],
-				['label'=>'Password recovery', 'url'=>['/user-management/auth/password-recovery']],
-				['label'=>'E-mail confirmation', 'url'=>['/user-management/auth/confirm-email']],
+			'items' => [
+				['label' => 'Login', 'url' => ['/user-management/auth/login']],
+				['label' => 'Logout', 'url' => ['/user-management/auth/logout']],
+				['label' => 'Registration', 'url' => ['/user-management/auth/registration']],
+				['label' => 'Change own password', 'url' => ['/user-management/auth/change-own-password']],
+				['label' => 'Password recovery', 'url' => ['/user-management/auth/password-recovery']],
+				['label' => 'E-mail confirmation', 'url' => ['/user-management/auth/confirm-email']],
 			],
 		],
 	],
@@ -262,7 +261,7 @@ Events can be handled via config file like following
 
 ```php
 
-'modules'=>[
+'modules' => [
 	'user-management' => [
 		'class' => 'webvimark\modules\UserManagement\UserManagementModule',
 		'on afterRegistration' => function(UserAuthEvent $event) {
