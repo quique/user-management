@@ -19,8 +19,9 @@
 return [
     'Captcha' => '',
     'E-mail' => '',
-    'Login' => '',
+    'Log in' => '',
     'Username' => '',
+    'Username has been taken' => 'Dieser Login existiert bereits',
     'Authorization' => 'Autorisierung',
     'Check your E-mail for further instructions' => 'Überprüfen Sie Ihre E-Mail-Adresse für weitere Anweisungen',
     'Check your e-mail {email} for instructions to activate account' => 'Überprüfen Sie Ihre E-Mail-Adresse {email} für weitere Anweisungen zur Kontoaktivierung',
@@ -33,7 +34,6 @@ return [
     'E-mail is invalid' => 'E-Mail ist ungültig',
     'Forgot password ?' => 'Passwort vergessen?',
     'Incorrect username or password.' => 'Falscher Benutzername oder Passwort.',
-    'Login has been taken' => 'Dieser Login existiert bereits',
     'Password' => 'Passwort',
     'Password recovery' => 'Passwort wiederherstellen',
     'Password reset for' => 'Passwort zurücksetzen für',

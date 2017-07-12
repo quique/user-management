@@ -18,7 +18,8 @@
  */
 return [
     'E-mail' => '',
-    'Username' => 'Логин',
+    'Log in' => '',
+    'Username has been taken' => 'Логин уже занят',
     'Authorization' => 'Авторизация',
     'Captcha' => 'Каптча',
     'Check your E-mail for further instructions' => 'Проверьте Ваш E-mail для дальнейших инструкций',
@@ -32,8 +33,6 @@ return [
     'E-mail is invalid' => 'Неверный E-mail',
     'Forgot password ?' => 'Забыли пароль ?',
     'Incorrect username or password.' => 'Неверный логин или пароль',
-    'Login' => 'Логин',
-    'Login has been taken' => 'Логин уже занят',
     'Password' => 'Пароль',
     'Password recovery' => 'Восстановление пароля',
     'Password reset for' => 'Смена пароля для',
@@ -48,5 +47,6 @@ return [
     'Token not found. It may be expired. Try reset password once more' => 'Токен не найдет. Возможно его срок действия истёк. Попробуйте сбросить пароль ещё раз',
     'Too many attempts' => 'Лимит попыток превышен',
     'Unable to send message for email provided' => 'Не удалось отправить письмо на указанный email',
+    'Username' => 'Логин',
     'You could not login from this IP' => 'Вы не можете входить с этого IP',
 ];

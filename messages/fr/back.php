@@ -22,7 +22,6 @@ return [
     'Routes that are not exists in this application will be deleted. Do not recommended for application with "advanced" structure, because frontend and backend have they own set of routes.' => '',
     'The provided LDAP parameters are syntactically wrong.' => '',
     'Unknown auth type.' => '',
-    'Login' => '@@Identifiant@@',
     'Active' => 'Actif',
     'Are you sure you want to delete this user?' => 'Etes-vous sûre de vouloir supprimer cet utilisateur ?',
     'Banned' => 'Banni',

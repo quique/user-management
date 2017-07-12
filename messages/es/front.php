@@ -17,7 +17,7 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Username' => 'Nombre de usuario',
+    'Username has been taken' => 'Este usuario ya existe',
     'Authorization' => 'Autorización',
     'Captcha' => 'Código Captcha',
     'Check your E-mail for further instructions' => 'Verifique su correo electrónico para más instrucciones',
@@ -32,8 +32,7 @@ return [
     'E-mail is invalid' => 'Correo electrónico no válido',
     'Forgot password ?' => '¿Olvidó la contraseña?',
     'Incorrect username or password.' => 'Nombre de usuario o contraseña incorrecta.',
-    'Login' => 'Iniciar sesión',
-    'Login has been taken' => 'Este usuario ya existe',
+    'Log in' => 'Iniciar sesión',
     'Password' => 'Contraseña',
     'Password recovery' => 'Recuperación de la contraseña',
     'Password reset for' => 'Restablecer la contraseña de',
@@ -48,5 +47,6 @@ return [
     'Token not found. It may be expired. Try reset password once more' => 'Token no encontrado. Puede haber expirado. Trate de restablecer la contraseña una vez más',
     'Too many attempts' => 'Demasiados intentos',
     'Unable to send message for email provided' => 'No fue posible enviar mensaje al correo electrónico indicado',
+    'Username' => 'Nombre de usuario',
     'You could not login from this IP' => 'No pudo iniciar sesión desde esta dirección IP',
 ];

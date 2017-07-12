@@ -17,8 +17,7 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'E-mail' => 'Email',
-    'Username' => 'Nom d\'utilisateur',
+    'Username has been taken' => 'L\'identifiant à été pris',
     'Authorization' => 'Autorisation',
     'Captcha' => 'Captcha',
     'Check your E-mail for further instructions' => 'Vérifiez vos emails pour de plus amples informations',
@@ -27,13 +26,13 @@ return [
     'Confirm E-mail' => 'Confirmation d\'email',
     'Continue' => 'Continuer',
     'Could not send confirmation email' => 'Impossible d\'envoyer la confirmation d\'email',
+    'E-mail' => 'Email',
     'E-mail confirmation for' => 'Confirmation d\'email pour',
     'E-mail confirmed' => 'Email confirmé',
     'E-mail is invalid' => 'L\'adresse email est invalide',
     'Forgot password ?' => 'Mot de passe perdu ?',
     'Incorrect username or password.' => 'Identifiant ou mot de passe incorrect',
-    'Login' => 'Se connecter',
-    'Login has been taken' => 'L\'identifiant à été pris',
+    'Log in' => 'Se connecter',
     'Password' => 'Mot de passe',
     'Password recovery' => 'Récupération de mot de passe',
     'Password reset for' => 'Régénération de mot de passe pour',
@@ -48,5 +47,6 @@ return [
     'Token not found. It may be expired. Try reset password once more' => 'Jeton introuvable, il a peut-être expiré. Essayez de regénérer le mot de passe une nouvelle fois',
     'Too many attempts' => 'Trop de tentatives',
     'Unable to send message for email provided' => 'Impossible d\'envoyer le message pour l\'email fournit',
+    'Username' => 'Nom d\'utilisateur',
     'You could not login from this IP' => 'Vous ne pouvez pas vous identifier à partir de cette adresse IP',
 ];

@@ -38,7 +38,6 @@ return [
     'The provided LDAP parameters are syntactically wrong.' => '',
     'Token' => '',
     'Unknown auth type.' => '',
-    'Login' => '@@@@',
     'Active' => 'Aktiv',
     'Are you sure you want to delete this user?' => 'Wollen Sie diesen Benutzer wirklich löschen?',
     'Bind to IP' => 'An IP binden',

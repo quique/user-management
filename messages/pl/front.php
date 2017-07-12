@@ -17,23 +17,22 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    'Continue' => 'Kontyntynuj',
     'E-mail' => '',
-    'Username' => 'Nazwa użytkownika',
+    'Log in' => '',
+    'Username has been taken' => 'Login jest już zajęty',
     'Authorization' => 'Logowanie',
     'Captcha' => 'Kod wizualny',
     'Check your E-mail for further instructions' => 'Sprawdź swoją skrzynkę e-mail, gdzie zostały wysłane dalsze instrukcje',
     'Check your e-mail {email} for instructions to activate account' => 'Sprawdź swoją skrzynkę e-mail {email}, gdzie została wysłana instrukcja jak aktywować konto',
     'Confirm' => 'Potwierdź',
     'Confirm E-mail' => 'Potwierdź adres e-mail',
+    'Continue' => 'Kontyntynuj',
     'Could not send confirmation email' => 'Nie udało się wysłać maila potwierdzającego',
     'E-mail confirmation for' => 'Potwierdzenie e-maila dla',
     'E-mail confirmed' => 'Adres e-mail potwierdzony',
     'E-mail is invalid' => 'Nieprawidłowy adres e-mail',
     'Forgot password ?' => 'Zapomniałeś hasło?',
     'Incorrect username or password.' => 'Nieprawidłowy login lub hasło',
-    'Login' => 'Zaloguj',
-    'Login has been taken' => 'Login jest już zajęty',
     'Password' => 'Hasło',
     'Password recovery' => 'Odzyskiwanie hasła',
     'Password reset for' => 'Resetowanie hasła dla',
@@ -48,5 +47,6 @@ return [
     'Token not found. It may be expired. Try reset password once more' => 'Klucz nie znaleziony. Mógł skończyć się jego okres ważności. Spróbuj ponownie zresetować hasło.',
     'Too many attempts' => 'Zbyt wiele prób',
     'Unable to send message for email provided' => 'Nie udało się wysłać wiadomości na podany adres e-mail',
+    'Username' => 'Nazwa użytkownika',
     'You could not login from this IP' => 'Nie możesz się zalogować z tego IP',
 ];

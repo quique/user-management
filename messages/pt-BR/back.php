@@ -33,8 +33,6 @@ return [
     'The provided LDAP parameters are syntactically wrong.' => '',
     'Token' => '',
     'Unknown auth type.' => '',
-    'Login' => '@@Login@@',
-    'Permissions for role - "{role}"' => '@@Permissões da função - "{role}"@@',
     'Active' => 'Ativo',
     'Are you sure you want to delete this user?' => 'Você tem certeza de que deseja excluir este usuário?',
     'Banned' => 'Banido',

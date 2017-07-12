@@ -33,7 +33,6 @@ return [
     'The provided LDAP parameters are syntactically wrong.' => '',
     'Token' => '',
     'Unknown auth type.' => '',
-    'Login' => '@@로그인@@',
     'Active' => '활성',
     'Are you sure you want to delete this user?' => '이 사용자를 삭제하시겠습니까?',
     'Bind to IP' => '아이피에 바인드',

@@ -36,7 +36,6 @@ return [
     'Token' => '',
     'Unknown auth type.' => '',
     'User agent' => '',
-    'Login' => '@@Login@@',
     'Active' => 'Aktywny',
     'Are you sure you want to delete this user?' => 'Czy na pewno chcesz usunąć tego użytkownika?',
     'Banned' => 'Zbanowany',
