@@ -37,7 +37,7 @@ use yii\helpers\Html;
 					<?= (isset(Yii::$app->user->enableAutoLogin) && Yii::$app->user->enableAutoLogin) ? $form->field($model, 'rememberMe')->checkbox(['value'=>true]) : '' ?>
 
 					<?= Html::submitButton(
-						UserManagementModule::t('front', 'Login'),
+						UserManagementModule::t('front', 'Log in'),
 						['class' => 'btn btn-lg btn-primary btn-block']
 					) ?>
 

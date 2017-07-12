@@ -31,8 +31,7 @@ return [
     'E-mail is invalid' => '',
     'Forgot password ?' => '',
     'Incorrect username or password.' => '',
-    'Login' => '',
-    'Login has been taken' => '',
+    'Log in' => '',
     'Password' => '',
     'Password recovery' => '',
     'Password reset for' => '',
@@ -48,5 +47,6 @@ return [
     'Too many attempts' => '',
     'Unable to send message for email provided' => '',
     'Username' => '',
+    'Username has been taken' => '',
     'You could not login from this IP' => '',
 ];

@@ -19,7 +19,8 @@
 return [
     'Captcha' => '',
     'E-mail' => '',
-    'Username' => 'Nome de Utilizador',
+    'Log in' => '',
+    'Username has been taken' => 'Este login já existe',
     'Authorization' => 'Autorização',
     'Check your E-mail for further instructions' => 'Verifique seu e-mail para maiores instruções',
     'Check your e-mail {email} for instructions to activate account' => 'Verifique seu e-mail {mail} para obter instruções para ativar a conta',
@@ -32,8 +33,6 @@ return [
     'E-mail is invalid' => 'E-mail inválido',
     'Forgot password ?' => 'Esqueceu a senha?',
     'Incorrect username or password.' => 'Nome do usuário ou senha incorreta.',
-    'Login' => 'Usuário',
-    'Login has been taken' => 'Este login já existe',
     'Password' => 'Senha',
     'Password recovery' => 'Recuperação de senha',
     'Password reset for' => 'Redefinição de senha para',
@@ -48,5 +47,6 @@ return [
     'Token not found. It may be expired. Try reset password once more' => 'Token não encontrado. Pode estar expirado. Tente redefinir a senha mais uma vez',
     'Too many attempts' => 'Muitas tentativas',
     'Unable to send message for email provided' => 'Não foi possível enviar mensagem para o e-mail informado',
+    'Username' => 'Nome de Utilizador',
     'You could not login from this IP' => 'Você não pode logar a partir deste endereço IP',
 ];

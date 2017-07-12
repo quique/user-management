@@ -69,7 +69,7 @@ class RegistrationForm extends Model
 	public function attributeLabels()
 	{
 		return [
-			'username'        => Yii::$app->getModule('user-management')->useEmailAsLogin ? 'E-mail' : UserManagementModule::t('front', 'Login'),
+			'username'        => Yii::$app->getModule('user-management')->useEmailAsLogin ? 'E-mail' : UserManagementModule::t('front', 'Username'),
 			'password'        => UserManagementModule::t('front', 'Password'),
 			'repeat_password' => UserManagementModule::t('front', 'Repeat password'),
 			'captcha'         => UserManagementModule::t('front', 'Captcha'),
@@ -133,7 +133,7 @@ class RegistrationForm extends Model
 		}
 		else
 		{
-			$this->addError('username', UserManagementModule::t('front', 'Login has been taken'));
+			$this->addError('username', UserManagementModule::t('front', 'Username has been taken'));
 		}
 	}
 

@@ -17,7 +17,9 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
+    'Authentication type' => '',
     'Confirmation Token' => '',
+    'Could not bind to the LDAP server.' => '',
     'E-mail' => '',
     'ID' => '',
     'IP' => '',
@@ -28,8 +30,9 @@ return [
     'Show all' => '',
     'Show only selected' => '',
     'Superadmin' => '',
+    'The provided LDAP parameters are syntactically wrong.' => '',
     'Token' => '',
-    'Permissions for role - "{role}"' => '@@Permissões da função - "{role}"@@',
+    'Unknown auth type.' => '',
     'Active' => 'Ativo',
     'Are you sure you want to delete this user?' => 'Você tem certeza de que deseja excluir este usuário?',
     'Banned' => 'Banido',
@@ -61,7 +64,6 @@ return [
     'Group' => 'Grupo',
     'Inactive' => 'Inativo',
     'Language' => 'Idioma',
-    'Login' => 'Login',
     'Name' => 'Nome',
     'OS' => 'Sistema operacional',
     'Password' => 'Senha',
