@@ -107,7 +107,6 @@ class LoginForm extends Model
             // If the user doesn't exist in the database,
             // it might be the first login of a LDAP user.
             $new_user = new \Yii::$app->user->identityClass();
-            $new_user->id = null;
             $new_user->username = $this->username;
             $new_user->password_hash = Yii::$app->getSecurity()->generatePasswordHash(Yii::$app->getSecurity()->generateRandomString());
             $new_user->auth_type = 'ldap';
