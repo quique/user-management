@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `auth_assignment` (
   `created_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`item_name`,`user_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `auth_item` (
   KEY `rule_name` (`rule_name`),
   KEY `idx-auth_item-type` (`type`),
   KEY `fk_auth_item_group_code` (`group_code`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `auth_item`
@@ -188,7 +188,7 @@ CREATE TABLE IF NOT EXISTS `auth_item_child` (
   `child` varchar(64) NOT NULL,
   PRIMARY KEY (`parent`,`child`),
   KEY `child` (`child`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `auth_item_child`
@@ -238,7 +238,7 @@ CREATE TABLE IF NOT EXISTS `auth_item_group` (
   `created_at` int(11) DEFAULT NULL,
   `updated_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`code`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `auth_item_group`
@@ -260,7 +260,7 @@ CREATE TABLE IF NOT EXISTS `auth_rule` (
   `created_at` int(11) DEFAULT NULL,
   `updated_at` int(11) DEFAULT NULL,
   PRIMARY KEY (`name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -283,7 +283,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `email` varchar(254) DEFAULT NULL,
   `email_confirmed` smallint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=2 ;
 
 --
 -- Dumping data for table `user`
@@ -310,7 +310,7 @@ CREATE TABLE IF NOT EXISTS `user_visit_log` (
   `os` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 AUTO_INCREMENT=1 ;
 
 --
 -- Constraints for dumped tables
