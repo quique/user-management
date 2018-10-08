@@ -11,9 +11,7 @@ class m170307_100221_update_email_type extends Migration
 
     public function down()
     {
-        echo "m170307_100221_update_email_type cannot be reverted.\n";
-
-        return false;
+        $this->alterColumn('user', 'email', 'varchar(128)');
     }
 
     /*
